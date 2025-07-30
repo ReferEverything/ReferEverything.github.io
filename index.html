@@ -31,7 +31,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <link rel="icon" href="./static/images/github.png">
+  <link rel="icon" href="./static/images/iclr.jpg">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -41,6 +41,11 @@
 
 <!-- Custom CSS -->
 <style>
+
+  .publication-authors a {
+    color: #0066CC !important;
+    font-weight: 550;
+  }
 
   
   .images-row {
@@ -177,84 +182,221 @@
 </head>
 <body>
 
+  <br>
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">ReferEverything: Towards segmenting everything we can speak of in videos</h1>
-            
-                    
-            
-            </div>
-          </div>
-        </div>
+  <div class="columns is-centered" >
+
+    <div class="column has-text-centered">
+
+      <h1 class="title is-2 publication-title" style="margin-bottom: 0.2rem;">ReferEverything: Towards Segmenting Everything We Can Speak of in Videos</h1>
+      <div class="has-text-centered" style="margin-top: 6px; margin-bottom: 10px;">
+        <h2 style="
+          font-size: 2rem;
+          font-weight: 600;
+          background: linear-gradient(to right, blue, indigo, violet);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          display: inline-block;
+          font-family: 'Arial Black', Impact, 'Google Sans', sans-serif;
+          letter-spacing: 1px;
+        ">
+          ICCV 2025
+        </h2>
       </div>
-    </div>
-  </section>
-
-<section class="hero">
-
-  <div class="hero-body">
-
-    <div class="container is-max-desktop">
-
-      <div class="columns is-centered">
-
-        <div class="column has-text-centered">
-
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              Anonymous ICCV 2025 Submission</span>
-          </div>
-
-            <p style="text-align:center">
-              <a href="#REM", id = "REM-link">Results Overview</a> &nbsp;/&nbsp;
-              <a href="#results", id = "burst-link">Results on BURST & VSPW & Ref-VPS</a> &nbsp;/&nbsp;
-              <!-- <a href="#refvps", id = "dataset-link">Results on Ref-VPS</a> &nbsp;/&nbsp; -->
-              <a href="#fight", id = "fight-link">Fighting Scenes</a> 
-            </p>
+      
+      <div class="is-size-4 publication-authors" style="font-weight: 550; color: #0066CC;">
+        <span class="author-block"><a href="https://miccooper9.github.io/">Anurag Bagchi</a></span>
+        &nbsp;&nbsp;
+          <span class="author-block"><a href="https://zpbao.github.io/">Zhipeng Bao</a></span>
+          &nbsp;&nbsp;
+          <span class="author-block"><a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a></span>
+          &nbsp;&nbsp;
+          <span class="author-block"><a href="https://pvtokmakov.github.io/home/">Pavel Tokmakov</a></span>
+          &nbsp;&nbsp;
+          <span class="author-block"><a href="http://www.cs.cmu.edu/~hebert/">Martial Hebert</a></span>
           
-          <br>
-
-          <div>
-              <!-- Bold and h2 tag -->
-            <p style="font-size:18px">We re-purpose Text-to-Video diffusion models to segment  any <strong style="color: blueviolet;">spatio-temporal entity</strong> given a <strong style="color: blueviolet;">referring text</strong>.</p>
-            <p><strong style="font-size:18px;">Hover over any GIF to display the input text prompt for the predicted mask</strong></p>
-           
-          </div> 
-
-
-         
-
-
-          <!--<p style="text-align:center">
-            <a href="#REM", id = "REM-link"><strong>Overall Results</strong></a> &nbsp;/&nbsp;
-            <a href="#dataset", id = "dataset-link"><strong>Visual Comparisons</strong></a> &nbsp;/&nbsp;
-            <a href="#fight", id = "fight-link"><strong>Fighting Scenes</strong></a> 
-            
-          </p>-->
-         
-
-
-          <!--<div class="section-title">
-            <h3><strong>Hover over any gif to show its referral expression</strong></h3>  
-          </div> -->
-          </div>
-        </div>
       </div>
+
+      <div style="height: 8px;"></div>
+
+      <div>
+        <!-- Bold and h2 tag -->
+      <p style="font-size:22px">We re-purpose <strong style="color: blueviolet;">Text-to-Video</strong> diffusion models to segment  any spatio-temporal <strong style="color: blueviolet;">entity</strong> given a <strong style="color: blueviolet;">referral text</strong>.</p> 
+      </div> 
+
+      <div style="height: 8px;"></div>
+
+      
+
+      <div>
+        <h4 style="text-align:center">
+          <a href="https://arxiv.org/abs/2410.23287" class="external-link button is-normal is-rounded is-dark">
+          <span class="icon"> 
+            <i class = "ai ai-arxiv">
+            </i>
+          </span>
+          <span>arXiv</span>
+          </a> &nbsp;&nbsp;
+          <a href="" class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+              <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+            </span>
+            <span>Code (Soon)</span>
+          </a> &nbsp;&nbsp;
+          <a href="" class="external-link button is-normal is-rounded is-dark">
+            <span class="icon"> 
+              <svg class="svg-inline--fa fa-database fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="database" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 73.143v45.714C448 159.143 347.667 192 224 192S0 159.143 0 118.857V73.143C0 32.857 100.333 0 224 0s224 32.857 224 73.143zM448 176v102.857C448 319.143 347.667 352 224 352S0 319.143 0 278.857V176c48.125 33.143 136.208 48.572 224 48.572S399.874 209.143 448 176zm0 160v102.857C448 479.143 347.667 512 224 512S0 479.143 0 438.857V336c48.125 33.143 136.208 48.572 224 48.572S399.874 369.143 448 336z"></path></svg>
+            </span>
+
+            <span>Data (Soon)</span>
+          </a> 
+          
+        </h4>
+        </div>
+
+        
+        
+
+        <div style="height: 8px;"></div>
+
+        <div>
+          <p><strong style="font-size:19px;">Hover over any GIF to display the input text prompt for the predicted mask</strong></p>
+        </div>
+
     </div>
+  
+  
   </div>
-</section>
+
+
+
+
+
 
 
 <div class="section-title" style="background-color: gainsboro;">
   <!--<h5><strong>Overall Results</strong></h5>-->  <!-- Bold and h2 tag -->
  <!-- <p> Visualizations corresponding to <strong>Figure 1</strong> in our paper.</p>-->
-  <p style="font-size: 20px;"> Results from our eval-only benchmark <strong> Ref-VPS </strong> (first 4 rows) and  other interesting samples outside the scope of our dataset.</p>
+  <p style="font-size: 20px;"> <strong>Zero-shot results</strong> on our <strong>eval-only</strong> benchmark <strong> Ref-VPS </strong> (first 4 rows) and  other interesting samples.</p>
 </div> 
+
+
+
 <section class="hero", id = "REM">
+  
+
+  <!--<div class="images-row">
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt11.gif">
+      <div class="hover-text">the spinning column of water</div>
+    </div>
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt12.gif">
+      <div class="hover-text">the rain drop running down the center of the windowpane</div>
+    </div>
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt13.gif">
+      <div class="hover-text">the smoke blown out</div>
+    </div>
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt16.gif">
+      <div class="hover-text">the large firework</div>
+    </div>
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt3.gif">
+      <div class="hover-text">the wave crashing in the ocean</div>
+    </div>
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt6.gif">
+      <div class="hover-text">the cracks in the middle of the glass</div>
+    </div>
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt7.gif">
+      <div class="hover-text">the building in the middle falling down</div>
+    </div>
+  </div>-->
+
+
+  <!--<div class="images-row">
+
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt19.gif">
+      <div class="hover-text">the black moving particles</div>
+    </div>
+    
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt9.gif">
+      <div class="hover-text">the beam of the light</div>
+    </div>
+
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt5.gif">
+      <div class="hover-text">the green bottle of paint shattering from the impact of the ball</div>
+    </div>
+
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt10.gif">
+      <div class="hover-text">the changing beam of white light</div>
+    </div>
+    
+
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt21.gif">
+      <div class="hover-text">the bubble being popped</div>
+    </div>
+
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt22.gif">
+      <div class="hover-text">the lava flowing</div>
+    </div>
+    
+   
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt4.gif">
+      <div class="hover-text">the circle of the bright light</div>
+    </div>
+  </div>-->
+
+
+  <!--<div class="images-row">
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt14.gif">
+      <div class="hover-text">the changing shape above the lake</div>
+    </div>
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt17.gif">
+      <div class="hover-text">the tall water eruption</div>
+    </div>
+
+
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt18.gif">
+      <div class="hover-text">the water runing into the sink</div>
+    </div>
+
+
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt8.gif">
+      <div class="hover-text">the bat signal and the light beam</div>
+    </div>
+
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt20.gif">
+      <div class="hover-text">the melting glass</div>
+    </div>
+   
+    
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt2.gif">
+      <div class="hover-text">the aurora</div>
+    </div>
+    
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt15.gif">
+      <div class="hover-text">the dark changing shape in the sky</div>
+    </div>
+  </div>-->
+
   <div class="images-row">
     <div class="image-container-Trow">
       <img alt="image" src="./static/teasers/tt11.gif">
@@ -276,6 +418,14 @@
       <img alt="image" src="./static/teasers/tt3.gif">
       <div class="hover-text">the wave crashing in the ocean</div>
     </div>
+    <!--<div class="image-container">
+      <img alt="image" src="./static/teasers/tt6.gif">
+      <div class="hover-text">the cracks in the middle of the glass</div>
+    </div>
+    <div class="image-container">
+      <img alt="image" src="./static/teasers/tt7.gif">
+      <div class="hover-text">the building in the middle falling down</div>
+    </div>-->
   </div>
 
 
@@ -287,6 +437,12 @@
       <div class="hover-text">the building in the middle falling down</div>
     </div>
     
+
+    <!--<div class="image-container-Trow">
+      <img alt="image" src="./static/teasers/tt19.gif">
+      <div class="hover-text">the black moving particles</div>
+    </div>-->
+    
     <div class="image-container-Trow">
       <img alt="image" src="./static/teasers/tt9.gif">
       <div class="hover-text">the beam of the light</div>
@@ -296,6 +452,8 @@
       <img alt="image" src="./static/teasers/tt5.gif">
       <div class="hover-text">the green bottle of paint shattering from the impact of the ball</div>
     </div>
+
+    
 
     <div class="image-container-Trow">
       <img alt="image" src="./static/teasers/tt6.gif">
@@ -308,6 +466,24 @@
       <div class="hover-text">the circle of the bright light</div>
     </div>
 
+    
+    
+
+    <!--<div class="image-container-Trow">
+      <img alt="image" src="./static/teasers/tt21.gif">
+      <div class="hover-text">the bubble being popped</div>
+    </div>
+
+    <div class="image-container-Trow">
+      <img alt="image" src="./static/teasers/tt22.gif">
+      <div class="hover-text">the lava flowing</div>
+    </div>
+    
+   
+    <div class="image-container-Trow">
+      <img alt="image" src="./static/teasers/tt4.gif">
+      <div class="hover-text">the circle of the bright light</div>
+    </div>-->
   </div>
 
 
@@ -317,6 +493,12 @@
       <img alt="image" src="./static/teasers/tt19.gif">
       <div class="hover-text">the black moving particles</div>
     </div>
+
+    
+    
+    
+
+
     <div class="image-container-Trow">
       <img alt="image" src="./static/teasers/tt18.gif">
       <div class="hover-text">the water runing into the sink</div>
@@ -326,6 +508,10 @@
       <img alt="image" src="./static/teasers/tt10.gif">
       <div class="hover-text">the changing beam of white light</div>
     </div>
+
+
+    
+
     <div class="image-container-Trow">
       <img alt="image" src="./static/teasers/tt21.gif">
       <div class="hover-text">the bubble being popped</div>
@@ -335,6 +521,9 @@
       <img alt="image" src="./static/teasers/tt20.gif">
       <div class="hover-text">the melting glass</div>
     </div>
+   
+    
+    
   </div>
 
 
@@ -346,6 +535,8 @@
       <div class="hover-text">the tall water eruption</div>
     </div>
 
+    
+    
     <div class="image-container-Trow">
       <img alt="image" src="./static/teasers/tt2.gif">
       <div class="hover-text">the aurora</div>
@@ -367,9 +558,39 @@
       <img alt="image" src="./static/teasers/tt8.gif">
       <div class="hover-text">the bat signal and the light beam</div>
     </div>
+    
+    
+   
+    
+
+    
+   
+    
+    
   </div>
 
   
+  
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
 
   <br>
 
@@ -428,25 +649,29 @@
   
 </section>
 
+
+
 <br>
 <br>
 
-<!-- 
+
 <div class="columns is-centered has-text-centered">
   <div class="column is-three-fifths">
     <h2 class=" title is-2">Abstract</h2>
     <div class="content has-text-justified">
+      <!--<h5><strong>Overall Results</strong></h5>-->  <!-- Bold and h2 tag -->
+    <!-- <p> Visualizations corresponding to <strong>Figure 1</strong> in our paper.</p>-->
       <p style="font-size:20px;"> 
         We present <b>REM</b>, a framework for segmenting a wide range of concepts in video that can be described through natural language. Our method capitalizes on visual-language representations learned by video diffusion models on Internet-scale datasets. A key insight of our approach is preserving as much of the generative model's original representation as possible, while fine-tuning it on narrow-domain Referral Object Segmentation datasets. As a result, our framework can accurately <b style="color:rgb(49, 125, 224)">segment and track rare and unseen objects</b>, despite being <b style="color:rgb(49, 125, 224)">trained on object masks from a limited set of categories</b>. Additionally, it can <b style="color:rgb(49, 125, 224)">generalize to non-object dynamic concepts</b>, such as waves crashing in the ocean, as demonstrated in our newly introduced eval-only benchmark for <b>Referral Video Process Segmentation (Ref-VPS)</b>. Our experiments show that REM performs on par with state-of-the-art approaches on in-domain datasets, like Ref-DAVIS, while outperforming them by up to twelve points in terms of region similarity on out-of-domain data, leveraging the power of Internet-scale pre-training.
       </p>
     </div> 
   </div>
-</div> -->
+</div>
 
 
 
 
-<section class="hero", id = "results">
+<section class="hero", id = "dataset">
   <div class="section-title">
     <h2><strong><br>Visual Comparisons - <span style="color: red;">SOTA</span> vs  <span style="color: green;">REM (Ours)</span></strong></h2>  <!-- Bold and h2 tag -->
     <p style="background-color: gainsboro;">Below we show examples from <strong>three datasets</strong> (<strong>Ref-VPS</strong>, <strong>VSPW</strong>, <strong>BURST</strong>) together with visual comparisons among <strong>three methods</strong> (<strong style="color: red;">UNINEXT</strong>, <strong style="color: red;">VD-IT</strong>, <strong style="color: green;">Ours</strong>).</p>
@@ -485,6 +710,15 @@
 
   </div>
   
+
+
+
+
+
+
+
+
+ 
 
   <div class="section-title">
     <h3><strong>BURST results from <a style="color: red;">VD-IT</a></strong></h3>  <!-- Bold and h2 tag -->
@@ -619,6 +853,7 @@
 
 
   </div>
+
   <div class="section-title"  >
     <h3><strong>VSPW (stuff) results from <a style=" color: green;">REM (Ours)</a></strong></h3>  <!-- Bold and h2 tag -->
   </div> 
@@ -645,16 +880,30 @@
       <img alt="image" src="./static/videos/our_house.gif">
       <div class="hover-text">the house</div>
     </div>
+
+
   </div>
-</section>
 
 
 
-<section class="hero", id = "refvps">
+
+
+
+
+
+
+
+
+
+
+  
   <div class="section-title">
-    <!-- <p style="background-color: gainsboro;">Our Ref-VPS contains 141 video clips spanning across 39 concepts, we show examples together with visual comparisons among three models below.</p> -->
     <h3><strong><br><br><br>Ref-VPS results from <a style="color: red;">UNINEXT</a></strong></h3>  <!-- Bold and h2 tag -->
   </div>  
+
+
+ 
+    
   <div class="images-row">
     <div class="image-container">
       <img alt="image" src="./static/videos/uni1.gif">
